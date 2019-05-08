@@ -8,5 +8,6 @@ deploy:
   provider: heroku
   api_key: $heroku_api_key
   skip_cleanup: true
+  app: yirenzhixia
   on:
     branch: master
