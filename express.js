@@ -8,4 +8,4 @@ app.get('/haha', function(req, res){
 app.use(function(req, res){
   res.send("app.use")
 })
-app.listen(3001);
+app.listen(process.env.PORT || 5000);
