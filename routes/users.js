@@ -25,4 +25,10 @@ router.get("/say", function(req, res, next) {
   res.send(`${cb}('hello')`)
 })
 
+router.get("/getCookie", function(req, res, next){
+  // res.header("Set-Cookie", "age ='18';HttpOnly")
+  // res.header("Set-Cookie", "userName ='maggie';HttpOnly;Expires=Wed, 21 Oct 2019 07:28:00 GMT")
+  res.send("hello world")
+})
+
 module.exports = router;
